@@ -1,88 +1,90 @@
 {
-  "id": "tombstone-a-pf2e-wild-west-supplement",
-  "title": "Tombstone: A PF2E Wild West Supplement",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  },
-  "description": "Foundry module for Tombstone: A PF2E Wild West Supplement",
-  "authors": [
-    {
-      "name": "Tombstone",
-      "discord": "tombstonett"
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "Tombstone: A PF2E Wild West Supplement",
-      "sorting": "m",
-      "packs": [
-        "weapons",
-        "guns-everywhere",
-        "new-class-additions"
-      ],
-      "folders": []
-    }
-  ],
-  "packs": [
-    {
-      "name": "weapons",
-      "label": "Weapons",
-      "path": "packs/weapons",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+    "id": "tombstone-a-pf2e-wild-west-supplement",
+    "title": "Tombstone: A PF2E Wild West Supplement",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
     },
-    {
-      "name": "guns-everywhere",
-      "label": "Guns Everywhere",
-      "path": "packs/guns-everywhere",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "new-class-additions",
-      "label": "New Class Additions",
-      "path": "packs/new-class-additions",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
-  ],
-  "flags": {
-    "tombstone-a-pf2e-wild-west-supplement": {
-      "pf2e-homebrew": {
-        "weaponTraits": {
-          "quickshooter": {
-            "label": "Quickshooter",
-            "description": "A weapon with the Quickshooter trait has a mechanism that allows the weapon to fire faster than a standard capacity weapon. When you use the Interact action to ready the next shot of a capacity weapon with the quickshooter trait, you treat your next attack with it as if the weapon had the Agile trait."
-          },
-          "capacity-6": {
-            "label": "Capacity 6",
-            "description": "PF2E.TraitDescriptionCapacity"
-          },
-          "full-auto": {
-            "label": "Full Auto",
-            "description": "Full auto weapons can have their triggers held down to fire continuously. In addition to a normal Strike, you can fire this weapon using the Full Auto action."
-          },
-          "fatal-spin": {
-            "label": "Fatal Spin d12",
-            "description": "Fatal Spin weapons are weapons that need to be warmed or spun up before they can reach their full destructive potential. Once a fatal spin weapon is fired once (or an Interact action is used to spin it up beforehand without consuming ammo), the weapon gains the fatal trait using the listed die size. It maintains this as long as the weapon is fired once every turn after its initial warm-up. If a turn ever ends without doing so, it immediately loses the fatal trait."
-          }
+    "description": "Foundry module for Tombstone: A PF2E Wild West Supplement",
+    "authors": [
+        {
+            "name": "Tombstone",
+            "discord": "tombstonett"
         }
-      }
-    }
-  },
-  "url": "https://github.com/TombstoneTT/TombstonePF2EWWS"
+    ],
+    "packFolders": [
+        {
+            "name": "Tombstone: A PF2E Wild West Supplement",
+            "sorting": "m",
+            "packs": [
+                "weapons",
+                "guns-everywhere",
+                "new-class-additions"
+            ],
+            "folders": []
+        }
+    ],
+    "packs": [
+        {
+            "name": "weapons",
+            "label": "Weapons",
+            "path": "packs/weapons",
+            "type": "Item",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "guns-everywhere",
+            "label": "Guns Everywhere",
+            "path": "packs/guns-everywhere",
+            "type": "Item",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "new-class-additions",
+            "label": "New Class Additions",
+            "path": "packs/new-class-additions",
+            "type": "Item",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        }
+    ],
+    "flags": {
+        "tombstone-a-pf2e-wild-west-supplement": {
+            "pf2e-homebrew": {
+                "weaponTraits": {
+                    "quickshooter": {
+                        "label": "Quickshooter",
+                        "description": "A weapon with the Quickshooter trait has a mechanism that allows the weapon to fire faster than a standard capacity weapon. When you use the Interact action to ready the next shot of a capacity weapon with the quickshooter trait, you treat your next attack with it as if the weapon had the Agile trait."
+                    },
+                    "capacity-6": {
+                        "label": "Capacity 6",
+                        "description": "PF2E.TraitDescriptionCapacity"
+                    },
+                    "full-auto": {
+                        "label": "Full Auto",
+                        "description": "Full auto weapons can have their triggers held down to fire continuously. In addition to a normal Strike, you can fire this weapon using the Full Auto action."
+                    },
+                    "fatal-spin": {
+                        "label": "Fatal Spin d12",
+                        "description": "Fatal Spin weapons are weapons that need to be warmed or spun up before they can reach their full destructive potential. Once a fatal spin weapon is fired once (or an Interact action is used to spin it up beforehand without consuming ammo), the weapon gains the fatal trait using the listed die size. It maintains this as long as the weapon is fired once every turn after its initial warm-up. If a turn ever ends without doing so, it immediately loses the fatal trait."
+                    }
+                }
+            }
+        }
+    },
+    "url": "https://github.com/TombstoneTT/TombstonePF2EWWS",
+    "manifest": "https://github.com/TombstoneTT/Tombstone-A-PF2E-Wild-West-Supplement/releases/download/1.0.0/module.json",
+    "download": "https://github.com/TombstoneTT/Tombstone-A-PF2E-Wild-West-Supplement/releases/download/1.0.0/tombstone-a-pf2e-wild-west-supplement.zip"
 }
