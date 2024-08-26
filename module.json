@@ -1,7 +1,7 @@
 {
     "id": "tombstone-a-pf2e-wild-west-supplement",
     "title": "Tombstone: A PF2E Wild West Supplement",
-    "version": "1.1.3",
+    "version": "2.0.0",
     "compatibility": {
         "minimum": "11",
         "verified": "12"
@@ -78,7 +78,11 @@
                     },
                     "fatal-spin": {
                         "label": "Fatal Spin d12",
-                        "description": "Fatal Spin weapons are weapons that need to be warmed or spun up before they can reach their full destructive potential. Once a fatal spin weapon is fired once (or an Interact action is used to spin it up beforehand without consuming ammo), the weapon gains the fatal trait using the listed die size. It maintains this as long as the weapon is fired once every turn after its initial warm-up. If a turn ever ends without doing so, it immediately loses the fatal trait."
+                        "description": "Fatal Spin weapons are weapons that need to be warmed or spun up before they can reach their full destructive potential. Once a fatal spin weapon is fired once (an Interact action can be used to spin it up beforehand without consuming ammo or to stop it), the weapon gains the fatal trait using the listed die size. It maintains this as long as the weapon is fired once every turn after its initial warm-up. If a turn ever ends without doing so, it immediately loses the fatal trait. In addition, as long as Fatal Spin is active, you take a -5 penalty to Speed as you fight against the weapon's firepower."
+                    },
+                    "pump-action": {
+                        "label": "Pump-Action",
+                        "description": "Pump-action weapons have, as the name implies, a pump-action mechanism that loads further ammo into a capacity weapon, allowing its wielder to keep up pressure on its enemies. When you use the Interact action to read the next shot of a capacity weapon with the pump-action trait, the next attack gains a circumstance bonus to damage equal to half the number of weapon damage dice (minimum 1) if you're currently suffering from a multiple attack penalty.'"
                     }
                 }
             }
